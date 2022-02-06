@@ -1,9 +1,10 @@
 #!/bin/bash
 
+echo "PATH=$PATH:$HOME/.local/bin" >> .bashrc
 mkdir -p ~/github/nstoker
 mkdir -p ~/gitlab/nstoker
 
-apt-get install -y git git-flow git-cola
+apt-get install -y git git-flow git-cola htop
 git config --global user.email "neil.stoker@gmail.com"
 git config --global user.name "Neil Stoker"
 
@@ -15,3 +16,6 @@ git clone git@github.com:nstoker/rocktrack
 git clone git@github.com:nstoker/RocktrackOnRails
 git clone git@github.com:nstoker/streamdeck-ui
 git clone git@github.com:nstoker/nstoker.github.io
+
+cd $HOME
+postgres start && postgres status && postgres stop
