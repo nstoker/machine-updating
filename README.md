@@ -28,15 +28,24 @@ There are several utilities and applications that I want to install in order to 
 - micro editor
 - ms code
 - visual studio
+- printer .201
 
 ## Linux
 
+- Reverse mouse direction
 - Latest Linux build
-- Git
-  - git flow
-  - git cola
+- `apt install git git-flow git-cola`
+  - `git config --global user.email "neil.stoker@gmail.com"`
+  - `git config --global user.name "Neil Stoker"`
+  - `git checkout git@github.com:nstoker/linux-dot-local-bin ~/.local`
 - MS Code
+  - Addons `^p`
+    - Markdownlinter `ext install DavidAnson.vscode-markdownlint`
 - micro editor
+- docker
+  - postgres
+  - golang dev environment?
+  - rails dev environment?
 - golang
 - Ruby on Rails
 - Chrome
@@ -48,7 +57,4 @@ There are several utilities and applications that I want to install in order to 
 - photo editor
 - VPN
 - tor browser
-- docker
-  - postgres
-  - golang dev environment?
-  - rails dev environment?
+- printer .201

@@ -1,0 +1,17 @@
+#!/bin/bash
+
+mkdir -p ~/github/nstoker
+mkdir -p ~/gitlab/nstoker
+
+apt-get install -y git git-flow git-cola
+git config --global user.email "neil.stoker@gmail.com"
+git config --global user.name "Neil Stoker"
+
+git clone git@github.com:nstoker/linux-dot-local-bin ~/.local
+cd ~/github.com/nstoker
+git clone git@github.com:nstoker/stokern
+git clone git@github.com:nstoker/stunning-waddle
+git clone git@github.com:nstoker/rocktrack
+git clone git@github.com:nstoker/RocktrackOnRails
+git clone git@github.com:nstoker/streamdeck-ui
+git clone git@github.com:nstoker/nstoker.github.io
